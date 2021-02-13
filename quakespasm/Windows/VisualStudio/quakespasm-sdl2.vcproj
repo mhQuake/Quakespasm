@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8,00"
+	Version="9.00"
 	Name="quakespasm-sdl2"
 	ProjectGUID="{AE77266F-0A23-4F08-A491-369DE664B273}"
 	RootNamespace="quakespasm-sdl2"
 	Keyword="Win32Proj"
+	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -33,6 +34,9 @@
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
 			/>
 			<Tool
 				Name="VCMIDLTool"
@@ -67,6 +71,8 @@
 				IgnoreDefaultLibraryNames="msvcrt.lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -89,7 +95,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="copy &quot;$(SolutionDir)\..\codecs\x86\*.dll&quot; &quot;$(TargetDir)&quot;&#x0D;&#x0A;copy &quot;$(SolutionDir)\..\SDL2\lib\*.dll&quot; &quot;$(TargetDir)&quot;"
+				CommandLine="copy &quot;$(SolutionDir)\..\codecs\x86\*.dll&quot; &quot;$(TargetDir)&quot;&#x0D;&#x0A;copy &quot;$(SolutionDir)\..\SDL2\lib\*.dll&quot; &quot;$(TargetDir)&quot;&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -108,6 +114,9 @@
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
 			/>
 			<Tool
 				Name="VCMIDLTool"
@@ -143,6 +152,8 @@
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -165,7 +176,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="copy &quot;$(SolutionDir)\..\codecs\x86\*.dll&quot; &quot;$(TargetDir)&quot;&#x0D;&#x0A;copy &quot;$(SolutionDir)\..\SDL2\lib\*.dll&quot; &quot;$(TargetDir)&quot;"
+				CommandLine="copy &quot;$(SolutionDir)\..\codecs\x86\*.dll&quot; &quot;$(TargetDir)&quot;&#x0D;&#x0A;copy &quot;$(SolutionDir)\..\SDL2\lib\*.dll&quot; &quot;$(TargetDir)&quot;&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -664,6 +675,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\Quake\cfgfile.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\Quake\client.h"
 				>
 			</File>
@@ -681,10 +696,6 @@
 			</File>
 			<File
 				RelativePath="..\..\Quake\crc.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\Quake\cfgfile.h"
 				>
 			</File>
 			<File
@@ -784,6 +795,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\Quake\q_sound.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\Quake\q_stdinc.h"
 				>
 			</File>
@@ -813,10 +828,6 @@
 			</File>
 			<File
 				RelativePath="..\..\Quake\server.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\Quake\q_sound.h"
 				>
 			</File>
 			<File

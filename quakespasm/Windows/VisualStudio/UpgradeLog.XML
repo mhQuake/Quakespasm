@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="quakespasm">
+</Property><Property Name="Solution File" Value="C:\Src\Quakespasm\quakespasm\Windows\VisualStudio\quakespasm.sln">
+</Property><Property Name="Date" Value="Saturday 13 February 2021">
+</Property><Property Name="Time" Value="16:59">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="quakespasm.sln" Description="File successfully backed up as C:\Src\Quakespasm\quakespasm\Windows\VisualStudio\quakespasm.sln.old">
+</Event><Event ErrorLevel="1" Project="quakespasm" Source="quakespasm.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="quakespasm" Source="quakespasm.vcproj" Description="Project file successfully backed up as 'C:\Src\Quakespasm\quakespasm\Windows\VisualStudio\quakespasm.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="quakespasm" Source="quakespasm.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="quakespasm" Source="quakespasm.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="quakespasm-sdl2" Source="quakespasm-sdl2.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="quakespasm-sdl2" Source="quakespasm-sdl2.vcproj" Description="Project file successfully backed up as 'C:\Src\Quakespasm\quakespasm\Windows\VisualStudio\quakespasm-sdl2.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="quakespasm-sdl2" Source="quakespasm-sdl2.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="quakespasm-sdl2" Source="quakespasm-sdl2.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="quakespasm.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="quakespasm.sln" Description="Converted">
+</Event></UpgradeLog>
